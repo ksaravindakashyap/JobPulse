@@ -12,8 +12,9 @@ import {
 import { getCurrentUser } from "@/actions/getCurrentUser";
 
 export default async function Jobs({ searchParams }) {
-	const currentUser = await getCurrentUser();
-	const { jobs, totalPages, totalItems } = await getJobs(searchParams);
+    const sp = await searchParams;
+    const currentUser = await getCurrentUser();
+    const { jobs, totalPages, totalItems } = await getJobs(sp);
 	const { categories } = await getCategories();
 	const { locations } = await getLocations();
 	const { tags } = await getTags();
@@ -39,11 +40,11 @@ export default async function Jobs({ searchParams }) {
 					</div>
 				</div>
 			</div>
-			<JobContent
+            <JobContent
 				jobs={jobs}
 				tags={tags}
 				currentUser={currentUser}
-				searchParams={searchParams}
+                searchParams={sp}
 				totalPages={totalPages}
 				totalItems={totalItems}
 			/>

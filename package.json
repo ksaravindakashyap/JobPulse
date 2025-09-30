@@ -8,7 +8,12 @@
     "start": "next start",
     "lint": "next lint",
     "prisma": "prisma",
-    "postinstall": "prisma generate"
+    "postinstall": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
+    "db:push": "prisma db push",
+    "db:seed": "node prisma/seed.js",
+    "db:seed-additional": "node prisma/seed-additional.js"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.6.1",
