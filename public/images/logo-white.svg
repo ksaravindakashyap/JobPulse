@@ -1,0 +1,13 @@
+<svg width="133" height="30" viewBox="0 0 133 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<text x="35" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">JobPulse</text>
+<g clip-path="url(#clip0_685_155)">
+<path d="M24.9364 10C24.9746 10.4125 25.0001 10.8276 25.0001 11.2499C25.0001 18.8316 18.8317 25 11.25 25C10.8278 25 10.4126 24.9745 10.0001 24.9363V29.9999H30V10H24.9364Z" fill="#8DCF9B"/>
+<path d="M11.25 0C5.03665 0 0 5.03665 0 11.25C0 16.1464 3.13352 20.3002 7.5 21.8457V7.5H21.8457C20.3002 3.13352 16.1464 0 11.25 0Z" fill="#8DCF9B"/>
+<path d="M22.4269 10H10.0001V22.4256C10.4104 22.4706 10.8278 22.4987 11.25 22.4987C17.4634 22.4987 22.5 17.4632 22.5 11.2498C22.5 10.8276 22.4719 10.4114 22.4269 10Z" fill="#8DCF9B"/>
+</g>
+<defs>
+<clipPath id="clip0_685_155">
+<rect width="30" height="30" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,58 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production build
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local env files (never commit secrets)
+.env
+.env*.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Databases (local/dev)
+*.db
+*.sqlite
+*.sqlite3
+prisma/dev.db
+
+# OS files
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Lockfiles (optional; keep if you want reproducible installs)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# App config that should live in env instead
+next.config.mjs
