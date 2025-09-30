@@ -1,0 +1,39 @@
+{
+  "name": "jobpulse",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma": "prisma",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^11.3.12",
+    "js-cookie": "^3.0.5",
+    "next": "15.3.1",
+    "next-auth": "4.24.11",
+    "next-cloudinary": "^6.15.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-hook-form": "^7.52.1",
+    "swiper": "^11.1.10",
+    "uuid": "^9.0.1",
+    "zustand": "^4.5.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "eslint-config-next": "^15.3.1",
+    "prisma": "^6.1.0"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
